@@ -20,7 +20,7 @@ io: [
 ], //进出校门
 names:['张三', '李四', '王五'],
 customName: 'null',
-auth: '授权有效!',
+auth: '研究生用户，入校授权有效!',
 time: 'asdasdadaded qeqc',
 userInfo: {},
 hasUserInfo: false,
@@ -35,7 +35,7 @@ console.log("radiochange");
 console.log("radiochange"+$("input[name='io']:checked").val());
 if($("input[name='io']:checked").val() == 0){
 console.log($("input[name='io']:checked").val());
-document.getElementById("auth").innerHTML="研究生用户，出校授权有效！";
+document.getElementById("auth").innerHTML="研究生用户，入校授权有效！";
 }
 else{
 console.log($("input[name='io']:checked").val());
